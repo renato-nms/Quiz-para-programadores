@@ -17,9 +17,106 @@
                 
                 <p>Qual a linguagem que você quer aprender</p>
                 <form>
-              
+                    <input type="radio" value="Python" id="p1a" name="pergunta1">
+                    <label for="p1a">Python</label><br>
+                    
+                    <input type="radio" value="HTML" id="p1b" name="pergunta1">
+                    <label for="p1b">HTML</label><br>
+                    
+                    <input type="radio" value="Ruby" id="p1c" name="pergunta1">
+                    <label for="p1c">Ruby</label>
+              </form>
+            </section>
+            <br>
+            <!--Pergunta 2: texto-->
+            <section>
+                <h2>Pergunta 2: na URL https://www.google.com o trecho <STRONG>Google.com</STRONG> é o ___</h2>
+                <form>
+                    <input type="text" id="p2" name="pergunta2" 
+                    placeholder="Digite aqui..." >  
                 </form>
             </section>
+            <br>
+            <!--Pergunta 3: senha-->
+            <section>
+                <h2>Pergunta 3: escreva um exemplo de senha forte</h2>
+                <form>
+                    <input type="password" id="p3" name="pergunta3"
+                    placeholder="Digite uma senha">
+                </form>
+            </section>
+            <br>
+            <!--Pergunta 4: data-->
+            <section>
+                <h2>Em que ano HTML lançou sua primeira versão?</h2>
+                <form>
+                    <input type="date" id="p4" name="pergunta4" >
+                </form>
+            </section>
+            <br>
+            <!--Pergunta 5: seleção múltipla-->
+            <section>
+                <h2>Pergunta 5: Quais dessas tecnologias são consideradas linguagens de programação</h2>
+                <form>
+                    <input type="checkbox" value="javascript" id="p4a" name=""pergunta5">
+                    <label for="p5a">Javascript</label>
+                    
+                    <input type="checkbox" value="CSS" id="p5b" name=""pergunta5">
+                    <label for="p5b">CSS</label>
+                    
+                    <input type="checkbox" value="javascript" id="p5c" name=""pergunta5">
+                    <label for="p5c">C#</label>
+                </form>
+            </section>
+            <br>
+            <!--Pergunta 6: Upload de arquivo-->
+            <section>
+                <h2>Pergunta 6: Faça o upload de um arquivo contendo código HTML</h2>
+                <form>
+                    <input type="file" id="p6" name="pergunta6">
+                </form>
+            </section>
+            <br>
+            <!--Pergunta 7: menu suspenso-->
+            <section>
+                <h2>Pergunta 2: Selecione o input que define seu tipo </h2>
+                <select id="p7" name="pergunta7">
+                    <option value="...">...</option>
+                    <option value="radio">Radio</option>
+                    <option value="checkbox">Checkbox</option>
+                    <option value="id">Id</option>
+                </select>
+            </section>
+            <br>
+            <!--Pergunta 8: imagem-->
+            <section>
+                <h2>Pergunta 8: Qual linguagem de programação é representada
+                    pelo logotipo abaixo?
+                </h2>
+                <figure>
+                    <img src="assets/logotipo_java.jpg" alt="Logotipojava">
+                </figure>
+                <figcaption>Logotipo de uma linguagem de programação</figcaption>
+                <input type="text" id="p8" name="pergunta8"
+                placeholder="Digite sua resposta">
+            </section>
+            <br>
+            <!--Tabela de pontuação-->
+            <section>
+                <table border="1">
+                    <tr>
+                        <td>0-2</td>
+                        <td>No surrender!</td>
+                    </tr>
+                    <td>3-4</td>
+                    <td>You-re doing well, but you need to study more</td>
+                    <tr>
+                        <td>8</td>
+                        <td>Ok, I admit, you is the main character</td>
+                    </tr>
+                </table>
+            </section>
+
         </main>
 </body>
 </html>
